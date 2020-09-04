@@ -1,0 +1,18 @@
+Follow the given steps to scrape hotstar and voot.
+1.Json scrape
+  1.Visit hotstar and select a title{Such as Popular movies,horror,comedy etc}.
+  2.Open the inspector on that page.
+  3.Go to networks within inspector, disable cache then select xhr type in the list.
+  4.Refresh the page.
+  5.Scroll down to the most bottom of that page.
+  6.Now check the file names which loaded when you refresh the page.
+  7.Json requests have (?) in the request name.
+  8.Check the response.
+  9.If you see the data or itemid in response scroll across and verify it it has the content you are looking for.
+  10.If the json has your details proceed to copy it all in a notepad file or directly convert it using the json to excel convertor.
+  11. The convertors I used are (https://github.com/konklone/json) and (https://json-csv.com/).#Currently looking for a permanent solution to conversion
+  12. Once converted go dowload the csv format only.
+2.Csv formatter 
+  1.Csv formatter will format the csv file into the desired format.
+  2.Once you run through it. You will get a csv with the content which is free.
+  3. Make sure to read the comments and follow the instruction.
