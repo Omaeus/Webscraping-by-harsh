@@ -1,6 +1,6 @@
 Follow the given steps to scrape hotstar and voot.
 1.Json scrape
-  1.Visit hotstar and select a title{Such as Popular movies,horror,comedy etc}.
+  1.Visit hotstar/voot and select a title{Such as Popular movies,horror,comedy etc}.
   2.Open the inspector on that page.
   3.Go to networks within inspector, disable cache then select xhr type in the list.
   4.Refresh the page.
